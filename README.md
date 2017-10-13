@@ -1,20 +1,21 @@
-Steps to undergo in ordrer to start
+# vue-app
 
-#1 install vue-cli > npm install -g vue-cli
-#2 create a new project using the "webpack" template > vue init webpack my-project
-#3 install dependencies and go!
-#4 > cd my-project
-#5 > npm install
-#6 > npm install vue-router --save
-#7 > npm install vuex --save
+> A Vue.js project
 
-For more details https://vuejs.org/v2/guide/installation.html#CLI
+## Build Setup
 
-After installation part is done...
+``` bash
+# install dependencies
+npm install
 
-> Go to folder where your project is created
-> find folder "src" and replace with "src" as i uploaded in this repository
+# serve with hot reload at localhost:8080
+npm run dev
 
-At Last..
+# build for production with minification
+npm run build
 
-> npm run dev (hit enter and your server will start)
+# build for production and view the bundle analyzer report
+npm run build --report
+```
+
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
