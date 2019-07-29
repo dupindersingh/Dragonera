@@ -1,15 +1,17 @@
 # vue-app
 
-> A Vue.js project
+> (Dragonera) A Vue.js project
 
 ## Build Setup
 
 ``` bash
 # install dependencies
 npm install
+if npm install fails with permission denied than "sudo npm install --unsafe-perm=true --allow-root"
 
 # serve with hot reload at localhost:8080
 npm run dev
+That's it it will run the project on port 8080
 
 # build for production with minification
 npm run build
